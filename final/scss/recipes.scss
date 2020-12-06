@@ -1,0 +1,100 @@
+.backgroundRecipe{
+    position: absolute;
+    
+    max-width: 1920px;
+    top: 0;
+    height: 120%;
+    
+    background-image: linear-gradient(rgba(167, 232, 189, 0.6), rgba(167, 232, 189, 0.6)), url("../img/recipe-hero.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    .recipeContainer{
+        
+        padding-top: 150px;
+        margin: 0 auto;
+        width: 90%;
+        min-height: 720px;
+    
+        .recipeContainBox{
+        
+            margin: 0 auto;
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+    
+        .recipeBox{
+    
+            margin-top: 50px;
+            width: 600px;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+    
+            .imgbox{
+    
+                height: 360px;
+                width: 400px;
+                
+                border-radius: 25px;
+                background-image: url("https://barbecuebible.com/wp-content/uploads/2013/05/featured-great-american-hamburger-1024x640.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+    
+            }
+    
+            .infoBox{
+                width: 320px;
+                height: 360px;
+                background-color: brown;
+                border-radius: 25px;
+    
+                .imgContain{
+                    width: 250px;
+                    height: 50px;
+                    //padding-top: 20px;
+                    margin: 35px auto;
+                    display: flex;
+                    text-align: center;
+                    
+                    .timerIcon{
+                        background-image: url("../img/time.svg");
+                        width: 50px;
+                        height: 50px;
+                        ;
+                        //position: relative;
+                    }
+    
+                    .serveIcon{
+                        background-image: url("../img/servings.svg");
+                        width: 50px;
+                        height: 50px;
+                    }
+                    p{
+    
+                        width: 100px;
+                        height: 50px;
+                        font-size: large;
+                    }
+    
+                }
+                
+            }
+        }
+    }
+    
+    h1{
+        position: absolute;
+        left: 20%;
+        margin-bottom: 20%;
+    }
+    
+        
+    }
+    
+
+}
+

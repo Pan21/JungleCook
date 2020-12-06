@@ -1,0 +1,96 @@
+.backgroundMyRecipe{
+    position: absolute;
+    
+    width: 100%;
+    top: 0;
+    height: 120%;
+    
+    background-image: linear-gradient(rgba(167, 232, 189, 0.6), rgba(167, 232, 189, 0.6)), url("../img/recipe-hero.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    .yourRecipe{
+        padding-top: 150px;
+        margin: 0 auto;
+        width: 80%;
+        min-height: 720px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .recipeBox{
+            width: 480px;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            .imgbox{
+    
+                height: 260px;
+                width: 300px;
+                //background-color: blue;
+                border-radius: 25px;
+                background-image: url("https://barbecuebible.com/wp-content/uploads/2013/05/featured-great-american-hamburger-1024x640.jpg");
+                background-repeat: no-repeat;
+                //background-attachment: fixed;
+                background-size: cover;
+    
+            }
+    
+            .infoBox{
+                width: 220px;
+                height: 260px;
+                background-color: brown;
+                border-radius: 25px;
+                h3{
+                    padding-left: 25px;
+                }
+            }
+    
+            .buttonEdit{
+                font-family: Caveat-Regular;
+                font-size: x-large;
+                background-color: yellow;
+                border-radius: 20px;
+                width: 120px;
+                margin-top: 300px;
+                box-shadow:0px 10px 6px #00000029;
+                border: none;
+            }
+
+            #detailRecipe{
+                margin-left: 5%;
+                margin-top: 7%;
+                position: absolute;
+                font-family: Caveat-Regular;
+                font-size: x-large;
+                background-color: yellow;
+                border-radius: 20px;
+                width: 120px;
+                box-shadow:0px 10px 6px #00000029;
+                border: none;
+            }
+    
+            .buttonDelete{
+                font-family: Caveat-Regular;
+                font-size: x-large;
+                background-color: yellow;
+                border-radius: 20px;
+                width: 120px;
+                box-shadow:0px 10px 6px #00000029;
+                border: none;
+            }
+        }
+    }
+
+}
+    
+
+
+@media only screen and (max-width:1100px) { 
+	.yourRecipe{
+        flex-direction: column;
+        .recipeBox{
+            
+        }
+    }
+}

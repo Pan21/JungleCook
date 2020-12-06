@@ -1,0 +1,60 @@
+.detailContain {
+  margin: 0 auto;
+  width: 90%;
+  min-height: 1200px;
+}
+.detailContain .recipeHeaderBox {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+  width: 70%;
+  height: 600px;
+}
+.detailContain .recipeHeaderBox .recipeImg {
+  width: 400px;
+  height: 400px;
+  background-image: url("../img/recipe-pizza.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.detailContain .recipeHeaderBox .descriptionText {
+  padding-left: 50px;
+  width: 300px;
+}
+.detailContain .recipeHeaderBox p {
+  padding-bottom: 25px;
+  font-family: Caveat-Regular;
+  font-size: large;
+}
+.detailContain .IngredientsBox {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 40%;
+  min-height: 400px;
+}
+.detailContain .IngredientsBox p {
+  font-family: Caveat-Regular;
+  font-size: x-large;
+}
+.detailContain .instructionBox {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 40%;
+  min-height: 400px;
+}
+.detailContain .instructionBox p {
+  font-family: Caveat-Regular;
+  font-size: x-large;
+}
+
+@media only screen and (max-width: 1100px) {
+  .detailContain .recipeHeaderBox {
+    flex-direction: column;
+  }
+}

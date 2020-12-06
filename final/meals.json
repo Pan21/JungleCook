@@ -1,0 +1,11 @@
+{
+    "Meals":
+    {
+        "Hamburger":{
+            "name": "Hamburger",
+            "time": "5 Minutes",
+            "servings": "2 Servings",
+            "image":"https://barbecuebible.com/wp-content/uploads/2013/05/featured-great-american-hamburger-1024x640.jpg"
+        }
+    }
+}

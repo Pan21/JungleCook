@@ -1,0 +1,72 @@
+.backgroundRecipe {
+  position: absolute;
+  max-width: 1920px;
+  top: 0;
+  height: 120%;
+  background-image: linear-gradient(rgba(167, 232, 189, 0.6), rgba(167, 232, 189, 0.6)), url("../img/recipe-hero.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.backgroundRecipe .recipeContainer {
+  padding-top: 150px;
+  margin: 0 auto;
+  width: 90%;
+  min-height: 720px;
+}
+.backgroundRecipe .recipeContainer .recipeContainBox {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.backgroundRecipe .recipeContainer .recipeContainBox .recipeBox {
+  margin-top: 50px;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+.backgroundRecipe .recipeContainer .recipeContainBox .recipeBox .imgbox {
+  height: 360px;
+  width: 400px;
+  border-radius: 25px;
+  background-image: url("https://barbecuebible.com/wp-content/uploads/2013/05/featured-great-american-hamburger-1024x640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.backgroundRecipe .recipeContainer .recipeContainBox .recipeBox .infoBox {
+  width: 320px;
+  height: 360px;
+  background-color: brown;
+  border-radius: 25px;
+}
+.backgroundRecipe .recipeContainer .recipeContainBox .recipeBox .infoBox .imgContain {
+  width: 250px;
+  height: 50px;
+  margin: 35px auto;
+  display: flex;
+  text-align: center;
+}
+.backgroundRecipe .recipeContainer .recipeContainBox .recipeBox .infoBox .imgContain .timerIcon {
+  background-image: url("../img/time.svg");
+  width: 50px;
+  height: 50px;
+}
+.backgroundRecipe .recipeContainer .recipeContainBox .recipeBox .infoBox .imgContain .serveIcon {
+  background-image: url("../img/servings.svg");
+  width: 50px;
+  height: 50px;
+}
+.backgroundRecipe .recipeContainer .recipeContainBox .recipeBox .infoBox .imgContain p {
+  width: 100px;
+  height: 50px;
+  font-size: large;
+}
+.backgroundRecipe .recipeContainer h1 {
+  position: absolute;
+  left: 20%;
+  margin-bottom: 20%;
+}

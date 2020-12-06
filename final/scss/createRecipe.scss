@@ -1,0 +1,74 @@
+.backgroundCreate{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 120%;
+    background-color: white;
+    .createRecip{
+        
+        width: 70%;
+        min-height: 1000px;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 15%;
+        padding-bottom: 50px;
+        
+    
+        input{
+            width: 80%;
+            margin: 25px;
+            background-color: transparent;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            font-size: large;
+            border-bottom: 40px bold black;
+        }
+    
+        h1{
+            font-family: lato-Italic;
+        }
+    
+        .createButton{
+            border: none;
+            margin-left: 30%;
+            margin-top: 2%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 150px;
+            padding-right: 150px;
+            border-radius: 25px;
+            background-color: #EFA7A7;
+            font-family: Caveat-Regular;
+            box-shadow:0px 10px 6px #00000029; 
+            font-size: xx-large;
+        }
+    
+        .attachfile{
+            left: 65%;
+            position: absolute;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 50px;
+            padding-right: 50px;
+            border-radius: 25px;
+            background-color: #EFA7A7;
+            box-shadow:0px 10px 6px #00000029; 
+        }
+        .addbutton{
+            left: 70%;
+            position: absolute;
+            border: none;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 25px;
+            background-color: #EFA7A7;
+            box-shadow:0px 10px 6px #00000029; 
+        }
+    
+    
+    }
+}
