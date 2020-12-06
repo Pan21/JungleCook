@@ -37,12 +37,12 @@ function viewDetail(){
 
 
 function initPages(){
-    $.get('views/nav.html', function(nav){
+    $.get('../views/nav.html', function(nav){
         $("#nav").html(nav);
         initListeners();
     });
 
-    $.get('views/home.html', function(data){
+    $.get('../views/home.html', function(data){
         $("#content").html(data);
     });
 }
