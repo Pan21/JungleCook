@@ -1,6 +1,6 @@
-# JungleCook
-### Zach Roberts
-#### 12/07/2020
+# The Jungle Cook
+### By: Zach Roberts
+#### Date: 12/07/2020
 
 
 This project is a Visual recreation of the Adobe XD file Listed below: 
