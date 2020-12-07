@@ -16,4 +16,10 @@ This site used Content injection to allow for rapid page changes with minimal lo
 Not needlessly loading excess data such as the Nav or footer.
 
 The link presented below is a live link to allow view of the website: 
+
+(https://in-info-web4.informatics.iupui.edu/~zjrobert/final/#)
+
+Below is an alternate link: 
 (https://pan21.github.io/JungleCook/final/)
+
+
